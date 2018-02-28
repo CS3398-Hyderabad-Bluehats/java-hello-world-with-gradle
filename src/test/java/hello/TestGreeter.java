@@ -63,11 +63,8 @@ public class TestGreeter {
    }
    
    public void newtestjtgGreeterPass() {
-	   private Greeter g3;
+	   assertNotNull(g.getName()) 
 	   
-	   g3.setName("Russia");
-	   
-	   assertNotSame(g, g3);
 	   
 	   assertEquals(g.sayHello(),"For the motherland");
 	   
