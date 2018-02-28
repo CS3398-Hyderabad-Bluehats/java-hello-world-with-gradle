@@ -2,4 +2,8 @@ language: java
 
 script: 
   - ./gradlew assemble
+<<<<<<< HEAD
   - ./gradlew build
+=======
+  - ./gradlew build
+>>>>>>> 026f9fddb160c28ae1a52c69139cb3f2f0f36028
