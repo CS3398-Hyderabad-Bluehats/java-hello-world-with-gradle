@@ -63,7 +63,7 @@ public class TestGreeter {
    }
    
    public void newtestjtgGreeterPass() {
-	   assertNotNull(g.getName()) 
+	   assertNotNull(g.getName()); 
 	   
 	   
 	   assertEquals(g.sayHello(),"For the motherland");
