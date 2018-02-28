@@ -69,5 +69,10 @@ public class TestGreeter {
 	   assertEquals(g.sayHello(),"For the motherland");
 	   
    }
+   
+   public void newtestjtgGreeterFail() {
+	   assertNull(g.getName());
+	   assertEquals(g.sayHello(),);
+   }
 
 }
