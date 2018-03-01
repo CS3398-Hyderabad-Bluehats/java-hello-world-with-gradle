@@ -1,65 +1,39 @@
 package hello;
 
-
-
 import static org.junit.Assert.*;
-
-
-
 import org.junit.Before;
-
 import org.junit.Test;
 
-
-
-
-
-public class TestGreeter {
-
-
-
+public class TestGreeter
+{
    private Greeter g;
 
-	
-
    @Before
-
-   public void setUp() throws Exception 
-
+   public void setUp() throws Exception
    {
-
       g = new Greeter();
-
    }
 
-
-
    @Test
-
-   public void testGreeterEmpty() 
-
+   public void testGreeterEmpty()
    {
-
       assertEquals(g.getName(),"");
-
       assertEquals(g.sayHello(),"Hello!");
-
    }
-
-	
 
    @Test
-
-   public void testGreeter() 
-
+   public void testGreeter()
    {
-
       g.setName("World");
-
       assertEquals(g.getName(),"World");
-
-      assertEquals(g.sayHello(),"Hello World!");
-
+      assertEquals(g.sayHello(),"Hello, World!");
    }
 
+   @Test
+   public void newtestRENGreeterPass()
+   {
+      g.setName("Ryan Edward Norman");
+      assertEquals(g.getName(),"Ryan Edward Norman");
+      assertEquals(g.sayHello(),"Hello, Ryan Edward Norman!");
+   }
 }
