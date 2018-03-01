@@ -34,8 +34,8 @@ public class TestGreeter {
         assertEquals(g.sayHello(), "Hello with love from Texas!");
     }
 
-    @Test
-    public void newtestMHSGreeterFail() {
-        assertNull(g.getName());
-    }
+    // @Test
+    // public void newtestMHSGreeterFail() {
+    //     assertNull(g.getName());
+    // }
 }
