@@ -30,10 +30,10 @@ public class TestGreeter
    }
 
    @Test
-   public void newtestRENGreeterPass()
+   public void newtestRENGreeterFail()
    {
       g.setName("Ryan Edward Norman");
       assertEquals(g.getName(),"Ryan Edward Norman");
-      assertEquals(g.sayHello(),"Hello, Ryan Edward Norman!");
+      assertEquals(g.sayHello(),"Hello Ryan Edward Norman!");
    }
 }
