@@ -62,17 +62,15 @@ public class TestGreeter {
 
    }
    
+   @Test
    public void newtestjtgGreeterPass() {
+	   
+	   g.setName("Russia");
+	   
+	
 	   assertNotNull(g.getName()); 
 	   
 	   
-	   assertEquals(g.sayHello(),"For the motherland");
-	   
-   }
-   
-   public void newtestjtgGreeterFail() {
-	   assertNull(g.getName());
-	   assertEquals(g.sayHello(),);
    }
 
 }

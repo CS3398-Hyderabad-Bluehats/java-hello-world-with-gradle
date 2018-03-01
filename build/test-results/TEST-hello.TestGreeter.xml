@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.TestGreeter" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-03-01T02:32:44" hostname="LAPTOP-59217S5G" time="0.0">
+  <properties/>
+  <testcase name="testGreeter" classname="hello.TestGreeter" time="0.0"/>
+  <testcase name="testGreeterEmpty" classname="hello.TestGreeter" time="0.0"/>
+  <testcase name="newtestjtgGreeterPass" classname="hello.TestGreeter" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
